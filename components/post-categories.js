@@ -14,7 +14,7 @@ const PostCategories = ({ categories }) => {
         {categories.map(({ name, slug }) => (
           <li key={slug}>
             <Link href={`/blog/category/${slug}`}>
-              name
+              {name}
             </Link>
           </li>
         ))}

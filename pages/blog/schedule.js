@@ -33,9 +33,7 @@ export default function Schedule ({
 
         <TwoColumn>
           <TwoColumnMain>
-            <PostBody>
-              <ConvertBody contentHTML={content} />
-            </PostBody>
+            <PostBody><ConvertBody contentHTML={content} /></PostBody>
           </TwoColumnMain>
           <TwoColumnSidebar>
             <PostCategories categories={categories} />
